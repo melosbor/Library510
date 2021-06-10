@@ -7,6 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ## Syllabus
 
 | Date | Lec | Unit | Guiding Question | Topic | Arc |
+
 | ---- | --- | ---- | ---------------- | ----- | --- |
 
 {% for topic in site.data.schedule -%}
