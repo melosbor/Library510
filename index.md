@@ -10,7 +10,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 | ---- | --- | ---- | ---------------- | ----- | --- |
 {%- for topic in site.data.schedule -%}
 | {{topic.Date}} | {{topic.Lec}} | {{topic.Unit}} | {{topic.Guiding_Question}} | {{topic.Topic}} | {{topic.Arc}} |
-{%- endfor -%}
+{% endfor %}
 
 ### Markdown
 
