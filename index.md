@@ -9,7 +9,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 | Date | Lec | Unit | Guiding Question | Topic | Arc |
 | ---- | --- | ---- | ---------------- | ----- | --- |
 
-{% for topic in site.data.schedule %}
+{%- for topic in site.data.schedule -%}
 | {{topic.Date}} | {{topic.Lec}} | {{topic.Unit}} | {{topic.Guiding_Question}} | {{topic.Topic}} | {{topic.Arc}} |
 {% endfor %}
 
